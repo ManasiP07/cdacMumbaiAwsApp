@@ -3,18 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CDAC Mumbai AWS App</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>CDAC Kharghar Student Portal</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+        header {
+            background-color: #4caf50;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 20px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        section {
+            padding: 20px;
+            margin: 20px;
+            background: white;
+            box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
     <header>
-        <h1>Welcome to CDAC Mumbai AWS App</h1>
+        <h1>CDAC Juhu Student Portal</h1>
+        <p>Welcome to the Center for Development of Advanced Computing (Juhu)</p>
     </header>
-    <main>
-        <p>This is the main content of the application.</p>
-    </main>
+    <nav>
+        <a href="./about.html">About</a>
+        <a href="./courses.html">Courses</a>
+        <a href="./contact.html">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About CDAC Juhu</h2>
+        <p>CDAC Juhu is a premier institute offering advanced courses in software development, embedded systems, and more. Our mission is to equip students with the skills needed for success in the tech industry.</p>
+    </section>
+    <section id="courses">
+        <h2>Our Courses</h2>
+        <ul>
+            <li>PG Diploma in Advanced Computing (PG-DAC)</li>
+            <li>PG Diploma in Embedded Systems (PG-DESD)</li>
+            <li>PG Diploma in Big Data Analytics (PG-DBDA)</li>
+            <li>PG Diploma in Artificial Intelligence (PG-DAI)</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Email: info@cdacjuhu.ac.in</p>
+        <p>Phone: +91-22-12345678</p>
+        <p>Address: CDAC Juhu, Mumbai, Maharashtra, India</p>
+    </section>
     <footer>
-        <p>&copy; 2025 CDAC Mumbai. All rights reserved.</p>
+        <p>&copy; 2025 CDAC Juhu. All rights reserved.</p>
     </footer>
 </body>
 </html>
